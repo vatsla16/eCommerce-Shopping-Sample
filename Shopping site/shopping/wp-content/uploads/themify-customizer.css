@@ -1,0 +1,51 @@
+/* Themify Customize Styling */
+body {	background: none;
+	background-color: #ffffff; 
+}
+a {	
+	color: #77ccbb; 
+}
+a:hover {	
+	color: #66dd99; 
+}
+h1, .col4-1 h1, .col4-2 h1, .col3-1 h1, .col2-1 h1, .page-title, .sidebar-none .page-title {	
+	font-family:Libre Franklin;	font-weight:bold;
+	font-size:95px;
+ 
+}
+#header a {	
+	color: #c419ad; 
+}
+#header a:hover {	
+	color: #de25aa; 
+}
+body[class*="themify"] #site-logo a img {	
+	height: 64px; 
+}
+#site-logo {		position:relative;
+
+	top: 30px; 
+}
+#main-nav {		position:relative;
+ 
+}
+.woocommerce .wc-products .product .add_to_cart_button, .woocommerce ul.products li.product .add_to_cart_button, .woocommerce #content input.button, .woocommerce #respond input#submit, .woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page input.button.alt, .woocommerce span.onsale:before, .woocommerce-page span.onsale:before, .wishlist-button.wishlisted, .woocommerce ul.products li.product a.wishlisted {	background: none;
+	background-color: #66bb99; 
+}
+.woocommerce .wc-products .product .add_to_cart_button:hover, .woocommerce ul.products li.product .add_to_cart_button:hover, .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce #content input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover {	background: none;
+	background-color: #77ccbb; 
+}
+@media screen and (max-width: 1280px) { /* Themify Customize Styling */
+body[class*="themify"] #site-logo a img {	
+	height: 64px; 
+}
+ }@media screen and (max-width: 768px) { /* Themify Customize Styling */
+body[class*="themify"] #site-logo a img {	
+	height: 64px; 
+}
+ }@media screen and (max-width: 680px) { /* Themify Customize Styling */
+body[class*="themify"] #site-logo a img {	
+	height: 64px; 
+}
+ }.mobile_menu_active #headerwrap .sidemenu-on nav li a { 	text-align:center; }.mobile_menu_active #headerwrap .sidemenu-on #main-nav a:hover, .mobile_menu_active #headerwrap .sidemenu-on #main-nav .current-menu-item > a { background: none;
+	background-color: #4a4242; }

@@ -1,0 +1,40 @@
+@import '../../../libraries/wp-conditions/assets/css/wp-conditions';
+
+/* Hide visibility from admin */
+.post-type-shipping_validation .misc-pub-visibility#visibility {
+	display: none;
+}
+
+/* Meta box styling */
+.wcasv-option {
+
+	label {
+		display: inline-block;
+		width: 150px;
+	}
+	input {
+		line-height: 19px;
+		width: 190px;
+	}
+}
+
+.wcasv_settings_meta_box {
+
+	.wcasv-description {
+		float: none;
+		line-height: 19px;
+	}
+	#validation-message {
+		max-width: 75%;
+		width: 75%;
+		vertical-align: top
+	}
+
+}
+
+.wcasv_conditions_meta_box {
+
+	& > p:first-child + div > .or-match {
+		display: none;
+	}
+}

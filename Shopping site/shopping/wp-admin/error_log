@@ -1,0 +1,4 @@
+[03-May-2019 21:15:33 UTC] WordPress database error Cannot add foreign key constraint for query ALTER TABLE `wp_wc_download_log`
+					ADD CONSTRAINT `fk_wp_wc_download_log_permission_id`
+					FOREIGN KEY (`permission_id`)
+					REFERENCES `wp_woocommerce_downloadable_product_permissions` (`permission_id`) ON DELETE CASCADE; made by activate_plugin, do_action('activate_woocommerce/woocommerce.php'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::install, WC_Install::create_tables

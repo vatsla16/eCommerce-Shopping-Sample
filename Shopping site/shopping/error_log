@@ -1,0 +1,1 @@
+[03-May-2019 21:09:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'storefront_featured_products' not found or invalid function name in /home/s0flft2in3k3/public_html/globalgamejam.ca/blog/wp-includes/class-wp-hook.php on line 286
